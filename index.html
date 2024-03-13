@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Encriptador by 9kanuto</title>
+</head>
+<body>
+    <header class="principio">
+        <h1 class="logo"><img class="logo" src="./img/Logo.png"></h1>
+        <h2 class="titulo">Encriptador.</h2>
+    </header>
+
+    <div class="campostexto">
+
+        <label for="plaintext">Ingrese el texto a encriptar:</label><br>
+        <textarea id="plaintext"></textarea><br>
+
+        <button onclick="encrypt()">Encriptar</button><br>
+
+        <label for="ciphertext">Texto encriptado:</label><br>
+        <textarea id="ciphertext" readonly></textarea><br>
+
+        <button onclick="decrypt()">Desencriptar</button><br>
+
+        <label for="decryptedtext">Texto desencriptado:</label><br>
+        <textarea id="decryptedtext" readonly></textarea>
+    </div>
+        
+    <footer class="final">
+        <h3> Sigueme en mis redes: </h3>
+        <div class="imagenes">
+            <a href="https://github.com/Ojhara" target="_blank"><img src="./img/github.png" width="50"></a>
+            <a href="https://www.instagram.com/9kanuto/" target="_blank"><img src="./img/instagram.png" width="50"></a>
+            <a href="https://www.linkedin.com/in/emilioojhara/" target="_blank"><img src="./img/linkedin.png" width="50"></a>
+        </div>
+        <h5>Improving everyday.</h5>
+    </footer>
+</body>
+<script src="app.js"></script>
+</html>
