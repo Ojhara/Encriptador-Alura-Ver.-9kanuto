@@ -49,8 +49,8 @@ button {
 }
 
 textarea {
-	width: 70%;
-	height: 100px;
+	width: 40%;
+	height: 80px;
 	margin: 18px;
     padding: 12px;
     align-items: center;
@@ -58,6 +58,7 @@ textarea {
     background-color: white;
     border-radius: 12px;
     border: 2px solid;
+    background-color: antiquewhite;
 }
 
 .final {
@@ -80,8 +81,10 @@ h3 {
 }
 
 img {
-    padding-left: 6px;
-    margin-left: 6px;
+    padding: 6px;
+    margin: 6px;
+    border: 3px solid black;
+    border-radius: 10px;
 }
 
 h5 {
@@ -90,3 +93,17 @@ h5 {
     padding: 8px;
     margin: 8px;
 }
+
+button:hover {
+    background-color: rgb(101, 227, 231);
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    transform: rotate(5deg);
+    box-shadow: 6px 6px 9px rgb(62, 240, 247);
+}
+
+img:hover {
+    box-shadow: 3px 3px 6px black;
+}
+
